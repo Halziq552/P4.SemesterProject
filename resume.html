@@ -1,0 +1,93 @@
+<!-- DEVELOPER: Hamza Alziq, IS117-102, Spring 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Hamza Alziq</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-light py-3">
+        <div class="container">
+            <h1 class="text-center mb-4">Resume</h1>
+            
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/logo.gif" alt="Logo" width="50" height="50">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="resume.html">Resume</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                                    Portfolio
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="portfolio/projects.html">Projects</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container my-4">
+        <section class="resume-section">
+            <h1 class="resume-title">Resume</h1>
+            
+            <div class="resume-container">
+                <div class="resume-preview">
+                    <div id="pdf-viewer">
+                        <object data="assets/Resume.docx.pdf" type="application/pdf" width="100%" height="800px">
+                        </object>
+                    </div>
+                </div>
+                
+                <div class="resume-download">
+                    <a href="assets/HamzahAlziq_Resume.pdf" download class="download-btn">
+                        <img src="assets/resume-icon.png" alt="Download" class="download-icon">
+                        Download Resume
+                    </a>
+                    <p class="download-info">PDF format, opens in a new window</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light py-3 fixed-bottom">
+        <div class="container text-center">
+            <p>&copy; 2025 Hamza Alziq, 
+                <a href="#">Privacy Statement</a>, 
+                <a href="#">Terms of service</a>
+                <a href="https://linkedin.com" class="ms-2"><img src="assets/linkedin.png" alt="LinkedIn" width="20"></a>
+                <a href="https://github.com" class="ms-2"><img src="assets/github-icon.png" alt="GitHub" width="20"></a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
